@@ -12,5 +12,6 @@ fiboncheck/ (main folder)
     senko/ (folder containing the exact same skripta.py for django views to use)
     fiboncalc (the django application for returning html results of fibonacci)
     
-To run the program, you need to have django installed. Just sync the django database with "./manage.py syncdb"
-(it is set to use sqlite) and run the server e.g. ./manage.py runserver 8000 (or use apache or whatever).
+To run the program, you need to have django installed. You can sync the django database with "./manage.py syncdb"
+(it is set to use sqlite) if it doesn't work without the database (it should) and run the server 
+e.g. ./manage.py runserver 8000 (or use apache or whatever).
